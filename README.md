@@ -19,7 +19,7 @@
 - `let` → Block-scoped, can be updated but not re-declared in the same scope, hoisted but not initialized.
 - `const` → Block-scoped, must be initialized, cannot be re-assigned (but objects/arrays can still be mutated).
 
-
+<br>
 2. What is the difference between map(), forEach(), and filter()?  
 
 **Answer:**  
@@ -27,8 +27,7 @@
 - forEach() → Loops through array, performs action, returns nothing  
 - filter()  → Returns a new array with elements that match a condition  
 
-
-
+<br>
 3. What are arrow functions in ES6? 
 
 **Answer:**  
@@ -39,8 +38,7 @@
    • No own `this` (inherits from surrounding scope)  
    • Cannot be used as constructors  
 
-
-
+<br>
 4. How does destructuring assignment work in ES6?
 
 **Answer:**  
@@ -54,7 +52,7 @@ const [a, b] = [1, 2]; // a = 1, b = 2
 // Object
 const {name, age} = {name: "Ripon", age: 24}; // name = "Ripon", age = 24
 
-
+<br>
 5. Explain template literals in ES6. How are they different from string concatenation? 
 
 **Answer:**  
