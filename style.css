@@ -1,52 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-font-family: "Poppins", sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 select {
-    background-image: url('./assets/down-arrow.png');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 24px;
-    padding-right: 30px;
+  background-image: url("./assets/down-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 24px;
+  padding-right: 30px;
 }
-
 
 .banner-area:before,
 .banner-area:after {
-    position: absolute;
-    content: '';
-    width: 546px;
-    height: 100%;
-    bottom: 0;
-    background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  width: 546px;
+  height: 100%;
+  bottom: 0;
+  background-repeat: no-repeat;
 }
 
 .banner-area:before {
-    left: 0;
-    background-image: url(./assets/hero-leaf1.png);
+  left: 0;
+  background-image: url(./assets/hero-leaf1.png);
 }
 
 .banner-area:after {
-    right: 0;
-    background-image: url(./assets/hero-leaf2.png);
+  right: 0;
+  background-image: url(./assets/hero-leaf2.png);
 }
 
 .categories ul li {
-    transition: all ease .2s;
+  transition: all ease 0.2s;
 }
 
 .categories ul li.active,
 .categories ul li:hover {
-    background-color: #15803d;
-    color: #FFF;
-    border-radius: 4px;
+  background-color: #15803d;
+  color: #fff;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 768px) {
-    .banner-area:before,
-    .banner-area:after {
-        display: none;
-    }
+  .banner-area:before,
+  .banner-area:after {
+    display: none;
+  }
 }
